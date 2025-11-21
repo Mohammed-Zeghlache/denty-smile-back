@@ -7,17 +7,8 @@ const Malade = require('./models/Malade');
 
 const app = express();
 
-// Middleware
-// app.use(cors({
-//   origin: ['http://localhost:5173',
-//     'https://denty-smile.onrender.com'
-//   ],
-//   credentials: true
-// }));
-
 app.use(cors({
   origin: [
-    // 'http://localhost:5173',
     'https://denty-smile.netlify.app'
   ],
   credentials: true
