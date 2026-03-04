@@ -34,5 +34,4 @@ const maladeSchema = new mongoose.Schema({
     }
 });
 
-// Use a different collection name to avoid the unique constraint
 module.exports = mongoose.model('malade', maladeSchema, 'appointments');
